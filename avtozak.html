@@ -14,13 +14,14 @@
 
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="display-functions.js"></script>
+<script type="text/javascript" src="display-project-page.js"></script>
 <script type="text/javascript" src="sitenav.js"></script>
 
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 <div id="page">
 	<div class="container">
-
+		
 		<!-- #Website Top and Categories -->
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
@@ -45,38 +46,58 @@
 			</nav>
 		</header>
 
+
 		<!-- #masthead -->
 		<div id="content" class="site-content">
-			<div id="primary" class="content-area column full">
+			<div id="primary" class="content-area column two-thirds single-portfolio">
 				<main id="main" class="site-main">
 				
-				<header class="page-header">
+				<article class="portfolio hentry">
+				<div class="entry-content">
 				
-				<div id = "category-title"></div>
-				<script>
-					LoadCategoryTitle();
-				</script>
+						
 
-				</header>
+					
+				<h2>Purpose</h2>
+
+				<p>
+                    This project was made by me in a total of 3 hours of development time. It was made for the TriJam at itch.io (). It was my first time making a project in such a short time and my main focus was on delivering something, that is why I kept the design of the game simple. The player is stuck in a cage and they are lowered to the bottom of the well and lifted back up. Their goal is to collect as much garbage in the well as possible with a hook they are given.                    
+				</p>
+
 				
-				<div class="grid portfoliogrid">
-					
-					<!-- this is the core of the portfolio grid-->
-					
-    				<div id = "app"></div>
-					   <script>
-						   LoadCategory();
-					   </script>
+		        <img width="600" height="600" src="assets/images/well_screenshot.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Outcomes</h2>
+				<p>I think the project turned out to be successful. It is a self-contained game that can be finished in a few minutes. The garbage objects I created are varied that alters the player’s approach to picking up each item. Coins are worth more, they are more important. Paper falls slowly, therefore it is more challenging to pick it up when the player is going down. Bottles break, so the player needs to be careful not to drop any bottles.
+				</p>
+
+
+		        <img width="600" height="600" src="assets/images/well_screenshot_annotated.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Shortcomings</h2>
+				<p>
+                    This project did have a few shortcomings. Some of them being that there are some objects that are impossible to pick up. The speed for the player rising and lowering is too fast, which might make players rely on luck rather than skill. I feel a lot of the  shortcomings come from the short development time due to the jam’s limitations. A lot of them could be fixed easily with a few more iterations in the development cycle. 
+                    
+				</p>
+				
 					
 				</div>
-				<!-- .grid -->
+				</article>
 				
-				<br/>
+				<!-- .navigation -->
 				
 				</main>
 				<!-- #main -->
 			</div>
 			<!-- #primary -->
+			
+
+			<div id="secondary" class="column third">
+				<div id = "metadata"></div>
+				<script> LoadRightBar("The Well"); </script>
+
+                <a href = "https://skibamykyta.itch.io/the-well"><h3> >Online Demo </h3></a>
+			</div>
 		</div>
 		<!-- #content -->
 	</div>
@@ -86,7 +107,7 @@
 		<div class="site-info">
 			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Mykyta Skiba</h1>
 		</div>
-	</div>	
+	</div>
 	</footer>
 	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
 </div>
@@ -95,5 +116,6 @@
 <script src='js/plugins.js'></script>
 <script src='js/scripts.js'></script>
 <script src='js/masonry.pkgd.min.js'></script>
+<script src='js/validate.js'></script>
 </body>
 </html>

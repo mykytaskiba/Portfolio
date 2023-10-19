@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mykyta Skiba's Portfolio</title>
+<link rel='stylesheet' href='css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="display-functions.js"></script>
+<script type="text/javascript" src="display-project-page.js"></script>
+<script type="text/javascript" src="sitenav.js"></script>
+
+</head>
+<body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+<div id="page">
+	<div class="container">
+		
+		<!-- #Website Top and Categories -->
+		<header id="masthead" class="site-header">
+			<div class="site-branding">
+				<h1 class="site-title"><a href="index.html" rel="home">Mykyta Skiba</a></h1>
+				<h2 class="site-description">Portfolio</h2>
+			</div>
+			<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			<div class="menu-menu-1-container">
+				<ul id="menu-menu-1" class="menu">
+
+					
+					<!-- #Sitenav Call -->
+					<div id = "sitenav"></div>
+						<script>
+							LoadSiteNav();
+						</script>
+
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column two-thirds single-portfolio">
+				<main id="main" class="site-main">
+				
+				<article class="portfolio hentry">
+				<div class="entry-content">
+				
+						
+
+					
+				<h2>Purpose</h2>
+
+				<p>
+                    This game was made for a class at University Of Washington Bothell. It was made by me and 3 other team members. It is a simulation game of planting trees in a forest while keeping track of multiple factors that affect a tree’s chance of survival. For example a tree that is planted in the shade will not grow as fast as trees in the sun, because it is blocked from the sun.</p>
+
+				
+                    <img width="600" height="600" src="assets/images/arboretum_demo_4.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Outcomes</h2>
+				<p>
+                    Overall the game was successful as a learning experience. During this project we as a team learned a lot about communication and collaboration. The final product has 4 different tree types the player can plant. Additionally, passage of time is tracked in the game and it affects the time of day, current season and weather, all of which affect a tree’s light level and water level, which affects the tree’s growth rate. It was a success as a learning project and in terms of the features it implemented.
+                </p>
+
+                <img width="600" height="600" src="assets/images/arboretum_demo_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+                <img width="600" height="600" src="assets/images/arboretum_demo_3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+                
+                
+                    <h2>Procedural Terrain Generation</h2>
+                <p>The terrain in the game is generated randomly. Using a noise map technique to generate the height of each vertex of the terrain mesh and then properly assigning materials to the mesh to generate a random terrain. 
+                </p>
+
+		        <img width="600" height="600" src="assets/images/arboretum_demo_8.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Shortcomings</h2>
+				<p>
+                    Main shortcomings of this game is that it does not provide the user with enough information. The values that a tree gets for the sun and water are almost magic numbers. The game calculates them but does not tell the user how they are calculated. With the intention of the game being about how the trees react to the environment and each other, the lack of information makes it hard for the player to make educated decisions on where to place new trees.
+
+				</p>
+				
+					
+				</div>
+				</article>
+				
+				<!-- .navigation -->
+				
+				</main>
+				<!-- #main -->
+			</div>
+			<!-- #primary -->
+			
+
+			<div id="secondary" class="column third">
+				<div id = "metadata"></div>
+				<script> LoadRightBar("Arboretum"); </script>
+
+                <a href = "https://skibamykyta.itch.io/arboretum"><h3> >Download Game Build (.EXE) </h3></a>
+
+                <h2>Collaborated with</h2>
+                <p>
+                    Daniil Marozau, Aiden Kreeger, Charlie Miller</p>
+			</div>
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Mykyta Skiba</h1>
+		</div>
+	</div>
+	</footer>
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
+</div>
+<!-- #page -->
+<script src='js/jquery.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/scripts.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+<script src='js/validate.js'></script>
+</body>
+</html>

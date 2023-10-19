@@ -14,13 +14,14 @@
 
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="display-functions.js"></script>
+<script type="text/javascript" src="display-project-page.js"></script>
 <script type="text/javascript" src="sitenav.js"></script>
 
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 <div id="page">
 	<div class="container">
-
+		
 		<!-- #Website Top and Categories -->
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
@@ -45,38 +46,62 @@
 			</nav>
 		</header>
 
+
 		<!-- #masthead -->
 		<div id="content" class="site-content">
-			<div id="primary" class="content-area column full">
+			<div id="primary" class="content-area column two-thirds single-portfolio">
 				<main id="main" class="site-main">
 				
-				<header class="page-header">
+				<article class="portfolio hentry">
+				<div class="entry-content">
 				
-				<div id = "category-title"></div>
-				<script>
-					LoadCategoryTitle();
-				</script>
+						
 
-				</header>
+					
+				<h2>Purpose</h2>
+
+				<p>
+                
+                    This game was made in 7 days for a game jam at Itch.io. It is a first person survival simulator. The game is in a town that is being occupied during a war. The player must collect resources and escape the town. Factors like thirst and hunger impede the players on their attempt to escape and the player also scavenge for food and water in abandoned buildings.
+
+                </p>
+
 				
-				<div class="grid portfoliogrid">
-					
-					<!-- this is the core of the portfolio grid-->
-					
-    				<div id = "app"></div>
-					   <script>
-						   LoadCategory();
-					   </script>
+                    <img width="600" height="600" src="assets/images/chorno_demo_3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Outcomes</h2>
+				<p>
+                    The game succeeds in its visually appealing environment and immersive mechanics for the player. There are two non player characters which the player can talk to and they are sources of lore and direction that help the player with the objective of the game. The item and inventory system is very expendable and more items could easily be added with no significant changes to the code base.   
+                </p>
+
+                <img width="600" height="600" src="assets/images/chorno_demo_6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+
+				<h2>Shortcomings</h2>
+				<p>
+                    I think I had a good core for this project, however I think I did not manage my time properly here. I created solid core systems for the game, however I did not have time to create more features that utilize these core systems. For example I only had 4 different types of items, but my system could have supported many more. If I had a chance to alter my approach to this project, I would alter my time management on how much time I dedicate to each part of the game. 
+				</p>
+
+		        <img width="600" height="600" src="assets/images/chorno_demo_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>				
 					
 				</div>
-				<!-- .grid -->
+				</article>
 				
-				<br/>
+				<!-- .navigation -->
 				
 				</main>
 				<!-- #main -->
 			</div>
 			<!-- #primary -->
+			
+
+			<div id="secondary" class="column third">
+				<div id = "metadata"></div>
+				<script> LoadRightBar("Escape Chornograd"); </script>
+
+                <a href = "https://skibamykyta.itch.io/escape-chornograd"><h3> >Download Game Build (.EXE) </h3></a>
+
+			</div>
 		</div>
 		<!-- #content -->
 	</div>
@@ -86,7 +111,7 @@
 		<div class="site-info">
 			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Mykyta Skiba</h1>
 		</div>
-	</div>	
+	</div>
 	</footer>
 	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
 </div>
@@ -95,5 +120,6 @@
 <script src='js/plugins.js'></script>
 <script src='js/scripts.js'></script>
 <script src='js/masonry.pkgd.min.js'></script>
+<script src='js/validate.js'></script>
 </body>
 </html>

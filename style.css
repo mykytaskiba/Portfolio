@@ -456,7 +456,7 @@ a:active,a:focus {
 	text-align:center;
 }
 .site-title {
-	font-family:'Quattrocento Sans',sans-serif;
+	font-family:'Verdana',sans-serif;
 	font-size:60px;
 	font-weight:300;
 	letter-spacing:2px;
@@ -2162,7 +2162,7 @@ form.comment-form {
 /* CUSTOM STYLE */
 body { font-family: 'Roboto'; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Oswald'; }
-.site-title { font-family: 'Herr Von Muellerhoff'; }
+.site-title { font-family: 'Garamond'; }
 .site-description { font-family: 'Quattrocento Sans'; }
 .entry-title { font-family: 'Oswald'; }
 .main-navigation { font-family: 'Oswald'; }

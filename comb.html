@@ -14,13 +14,14 @@
 
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="display-functions.js"></script>
+<script type="text/javascript" src="display-project-page.js"></script>
 <script type="text/javascript" src="sitenav.js"></script>
 
 </head>
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 <div id="page">
 	<div class="container">
-
+		
 		<!-- #Website Top and Categories -->
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
@@ -45,38 +46,69 @@
 			</nav>
 		</header>
 
+
 		<!-- #masthead -->
 		<div id="content" class="site-content">
-			<div id="primary" class="content-area column full">
+			<div id="primary" class="content-area column two-thirds single-portfolio">
 				<main id="main" class="site-main">
 				
-				<header class="page-header">
+				<article class="portfolio hentry">
+				<div class="entry-content">
 				
-				<div id = "category-title"></div>
-				<script>
-					LoadCategoryTitle();
-				</script>
+						
 
-				</header>
+					
+				<h2>Project Description</h2>
+
+				<p>
+                
+                    This project is in active development with a team of 2 developers and me. It is an online game that takes the world of finance and gamifies it. It is tied to cryptocurrency pools that the Comb protocol is running.
+                </p>
+
 				
-				<div class="grid portfoliogrid">
-					
-					<!-- this is the core of the portfolio grid-->
-					
-    				<div id = "app"></div>
-					   <script>
-						   LoadCategory();
-					   </script>
-					
+
+				<h2>My Role</h2>
+				<p>
+                    My role on the project is to develop the game aspects of GameFi. I focus on the environment design of the different world spaces in the game and working with the netcode of the system.
+                </p>
+
+
+
+				<h2>
+                    Environment Previews
+                </h2>
+
+		        <img width="600" height="600" src="assets/images/comb_demo_1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>	
+				<p>
+                
+                    This level’s style is futuristic/cyberpunk. The style is kept generic as this level is meant to be expendable so multiple cryptocurrency protocols can be hosted in this world space. Right now equalizer is the main protocol being hosted in this world space.
+                </p>
+
+		        <img width="600" height="600" src="assets/images/comb_demo_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>				
+                
+                <p>
+                
+                    This level is styled after the Beethoven protocol. It is a combination of music and horror. This level is unique as it is a massive scale room and the player plays a scaled down character compared to the world.
+                </p>
+
 				</div>
-				<!-- .grid -->
+				</article>
 				
-				<br/>
+				<!-- .navigation -->
 				
 				</main>
 				<!-- #main -->
 			</div>
 			<!-- #primary -->
+			
+
+			<div id="secondary" class="column third">
+				<div id = "metadata"></div>
+				<script> LoadRightBar("Comb Financial"); </script>
+
+                <h3>Role: Video Game Developer</h3>
+
+			</div>
 		</div>
 		<!-- #content -->
 	</div>
@@ -86,7 +118,7 @@
 		<div class="site-info">
 			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Mykyta Skiba</h1>
 		</div>
-	</div>	
+	</div>
 	</footer>
 	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
 </div>
@@ -95,5 +127,6 @@
 <script src='js/plugins.js'></script>
 <script src='js/scripts.js'></script>
 <script src='js/masonry.pkgd.min.js'></script>
+<script src='js/validate.js'></script>
 </body>
 </html>
