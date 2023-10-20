@@ -2,13 +2,14 @@
 const project_data = {
     "projects":[
     {
-            "name":"Comb Financial",
-            "categories":["Video Game"],
-            "description":"A Metaverse GameFi project in active development",
-            "image":"assets/images/comb_logo.png",
-            "date":"June 2023 - Current",
+        "name":"Comb Financial",
+        "categories":["Video Game"],
+        "description":"A Metaverse GameFi project in active development",
+        "image":"assets/images/comb_logo.png",
+        "date":"June 2023 - Current",
+        "tools":["Unity", "C#"],
     
-            "page":"comb.html"
+        "page":"comb.html"
     },
     {
         "name":"A Lone Canoe",
@@ -16,6 +17,7 @@ const project_data = {
         "description":"A game about travelling the Dnipro river in Ukraine",
         "image":"assets/images/lonecanoe.png",
         "date":"August 2023",
+        "tools":["Unity", "C#"],
 
         "page":"lonecanoe.html"
 
@@ -26,6 +28,7 @@ const project_data = {
         "description":"A game about being stuck and clearing out a well using physics",
         "image":"assets/images/well_logo.png",
         "date":"June 2023",
+        "tools":["Unity", "C#"],
 
         "page":"well.html"
     },
@@ -35,6 +38,7 @@ const project_data = {
         "description":"A game about simulating a forests ecosystem",
         "image":"assets/images/arboretum_logo.png",
         "date":"January 2023 - March 2023",
+        "tools":["Unity", "C#"],
 
         "page":"arboretum.html"
     },
@@ -44,8 +48,19 @@ const project_data = {
         "description":"A game about escaping an occupied town during war",
         "image":"assets/images/chorno_logo.png",
         "date":"April 2023",
+        "tools":["Unity", "C#"],
 
         "page":"chornograd.html"
+    },
+    {
+        "name":"Avtozak",
+        "categories":["Physical Game"],
+        "description":"A tabletop roleplaying game module about riots and protests",
+        "image":"assets/images/avtozak_logo.png",
+        "date":"January 2023",
+        "tools":["Inkscape"],
+
+        "page":"avtozak.html"
     }
     ]
 }

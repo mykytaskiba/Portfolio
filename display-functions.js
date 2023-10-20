@@ -90,7 +90,7 @@ function LoadEntryCategories(categories) {
     
 
     <h3 class="page-title">
-    ${category}s
+    ${category} Projects
     </h3>
 `
 
