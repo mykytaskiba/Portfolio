@@ -2,9 +2,10 @@
 
 function LoadAll() {
 
-for (let i = 0; i < project_data.projects.length; i++) {
-    LoadEntry(project_data.projects[i]);
-}
+    let sorted_data = GetSortedData();
+    for (let i = 0; i < sorted_data.length; i++) {
+        LoadEntry(sorted_data[i]);
+    }
 
 }
 
@@ -20,15 +21,21 @@ function LoadCategory() {
 
     console.log(category);
 
-    for (let i = 0; i < project_data.projects.length; i++) {
+    let sorted_data = GetSortedData();
+
+    for (let i = 0; i < sorted_data.length; i++) {
     
-        if (project_data.projects[i].categories.includes(category)) {
-            LoadEntry(project_data.projects[i]);
+        if (sorted_data[i].categories.includes(category)) {
+            LoadEntry(sorted_data[i]);
         }
         
     
     }
     
+}
+
+function GetSortedData() {
+    return project_data.projects.sort(function(a,b){return b.priority - a.priority});
 }
 
 function LoadEntry(entry) {

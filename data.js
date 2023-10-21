@@ -8,7 +8,8 @@ const project_data = {
         "image":"assets/images/comb_logo.png",
         "date":"June 2023 - Current",
         "tools":["Unity", "C#"],
-    
+        "priority":"6",
+
         "page":"comb.html"
     },
     {
@@ -18,6 +19,7 @@ const project_data = {
         "image":"assets/images/lonecanoe.png",
         "date":"August 2023",
         "tools":["Unity", "C#"],
+        "priority":"3",
 
         "page":"lonecanoe.html"
 
@@ -29,6 +31,7 @@ const project_data = {
         "image":"assets/images/well_logo.png",
         "date":"June 2023",
         "tools":["Unity", "C#"],
+        "priority":"3",
 
         "page":"well.html"
     },
@@ -39,6 +42,7 @@ const project_data = {
         "image":"assets/images/arboretum_logo.png",
         "date":"January 2023 - March 2023",
         "tools":["Unity", "C#"],
+        "priority":"4",
 
         "page":"arboretum.html"
     },
@@ -49,6 +53,7 @@ const project_data = {
         "image":"assets/images/chorno_logo.png",
         "date":"April 2023",
         "tools":["Unity", "C#"],
+        "priority":"5",
 
         "page":"chornograd.html"
     },
@@ -59,8 +64,20 @@ const project_data = {
         "image":"assets/images/avtozak_logo.png",
         "date":"January 2023",
         "tools":["Inkscape"],
+        "priority":"-1",
 
         "page":"avtozak.html"
+    },
+    {
+        "name":"Club 27",
+        "categories":["Physical Game"],
+        "description":"A tabletop roleplaying game module about the club 27 urban legend",
+        "image":"assets/images/club_27_logo.png",
+        "date":"April 2023",
+        "tools":["Inkscape"],
+        "priority":"-1",
+
+        "page":"club27.html"
     }
     ]
 }
