@@ -64,7 +64,7 @@ const project_data = {
         "image":"assets/images/avtozak_logo.png",
         "date":"January 2023",
         "tools":["Inkscape"],
-        "priority":"-1",
+        "priority":"-2",
 
         "page":"avtozak.html"
     },
@@ -75,9 +75,31 @@ const project_data = {
         "image":"assets/images/club_27_logo.png",
         "date":"April 2023",
         "tools":["Inkscape"],
-        "priority":"-1",
+        "priority":"-2",
 
         "page":"club27.html"
+    },
+    {
+        "name":"Zwyntar Pass / Moonshine - A Borg Double Feature",
+        "categories":["Physical Game"],
+        "description":"A tabletop roleplaying module double feature made for two ttrpg systems",
+        "image":"assets/images/zwyntar_logo.png",
+        "date":"October 2023",
+        "tools":["Inkscape"],
+        "priority":"-1",
+
+        "page":"zwyntar.html"
+    },
+    {
+        "name":"A Man And His Ag-MAR",
+        "categories":["Video Game","Educational"],
+        "description":"An educational video game made as a result of collaboration with a political science student",
+        "image":"assets/images/agmar_logo.png",
+        "date":"December 2023",
+        "tools":["Unity", "C#"],
+        "priority":"5",
+
+        "page":"agmar.html"
     }
     ]
 }
