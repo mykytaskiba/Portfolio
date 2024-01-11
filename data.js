@@ -42,7 +42,7 @@ const project_data = {
         "image":"assets/images/arboretum_logo.png",
         "date":"January 2023 - March 2023",
         "tools":["Unity", "C#"],
-        "priority":"4",
+        "priority":"3",
 
         "page":"arboretum.html"
     },
@@ -53,7 +53,7 @@ const project_data = {
         "image":"assets/images/chorno_logo.png",
         "date":"April 2023",
         "tools":["Unity", "C#"],
-        "priority":"5",
+        "priority":"4",
 
         "page":"chornograd.html"
     },
@@ -100,6 +100,28 @@ const project_data = {
         "priority":"5",
 
         "page":"agmar.html"
+    },
+    {
+        "name":"Space Escape",
+        "categories":["Video Game"],
+        "description":"A short space shooter game made in two weeks for a game jam",
+        "image":"assets/images/space_escape_logo.png",
+        "date":"December 2023",
+        "tools":["Unity", "C#"],
+        "priority":"5",
+
+        "page":"spaceescape.html"
+    },
+    {
+        "name":"Mesh Edit Online",
+        "categories":["Tool"],
+        "description":"A mesh sculpting application that works online based on client server architecture",
+        "image":"assets/images/mesh_edit_logo.png",
+        "date":"November 2023 - December 2023",
+        "tools":["Unity", "C#"],
+        "priority":"6",
+
+        "page":"meshedit.html"
     }
     ]
 }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mykyta Skiba's Portfolio</title>
+<link rel='stylesheet' href='css/woocommerce-layout.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' href='css/woocommerce.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700' type='text/css' media='all'/>
+<link rel='stylesheet' href='css/easy-responsive-shortcodes.css' type='text/css' media='all'/>
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="display-functions.js"></script>
+<script type="text/javascript" src="display-project-page.js"></script>
+<script type="text/javascript" src="sitenav.js"></script>
+
+</head>
+<body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+<div id="page">
+	<div class="container">
+		
+		<!-- #Website Top and Categories -->
+		<header id="masthead" class="site-header">
+			<div class="site-branding">
+				<h1 class="site-title"><a href="index.html" rel="home">Mykyta Skiba</a></h1>
+				<h2 class="site-description">Portfolio</h2>
+			</div>
+			<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			<div class="menu-menu-1-container">
+				<ul id="menu-menu-1" class="menu">
+
+					
+					<!-- #Sitenav Call -->
+					<div id = "sitenav"></div>
+						<script>
+							LoadSiteNav();
+						</script>
+
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+
+		<!-- #masthead -->
+		<div id="content" class="site-content">
+			<div id="primary" class="content-area column two-thirds single-portfolio">
+				<main id="main" class="site-main">
+				
+				<article class="portfolio hentry">
+				<div class="entry-content">
+				
+						
+
+					
+				<h2>Purpose</h2>
+
+				<p>
+                
+                    This is a jam game made over the course of two weeks. The purpose of this project was for me to focus on the quality of the features implemented, rather than the complexity. A lot of my previous projects implement a variety of features and some end up not particularly fleshed out. With this project I made a simple game in terms of features and game design, but I tried to polish these features to make a good feeling and more completed game.
+                </p>
+
+				
+                    <img width="600" height="600" src="assets/images/space_escape_demo_1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+				<h2>Outcomes</h2>
+				<p>
+                    The final game is beatable in 5 minutes. However the final product does feel and plays like a polished game. The sounds are integrated into all actions that the player and NPCs can take. The movement system feels responsive with proper camera tilts and bobbles that feedback the player's movement speed and direction. Overall while being a short and focused experience, this game did end up feeling complete.   
+                </p>
+
+                <img width="600" height="600" src="assets/images/space_escape_demo_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>
+
+
+				<h2>Game Design</h2>
+				<p>
+                    There is an important game design lesson that I have learned from this project. It is to not over complicate NPCs. Usually in my other projects, when I thought of how to implement NPCs, I thought of pathfinding algorithms and complex state machines. I took a more YAGNI (You ain't gonna need it) approach to this project. I made the NPCs be very simple, with no pathfinding, the movement relies on just going straight to the player. However I have combined complimentary level design, that puts the enemies into situations where such complex pathfinding is not crucial. The enemies attacks were telegraphed actions that relied on sounds and animation to convey the information to the player. So overall, the scripting intensity for the NPCs was light, they do seem like adequate obstacles to the player’s progress due to the complimentary level design and telegraphed enemy behaviors.
+                </p>
+
+		        <img width="600" height="600" src="assets/images/space_escape_demo_3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="p1"/>				
+					
+				</div>
+				</article>
+				
+				<!-- .navigation -->
+				
+				</main>
+				<!-- #main -->
+			</div>
+			<!-- #primary -->
+			
+
+			<div id="secondary" class="column third">
+				<div id = "metadata"></div>
+				<script> LoadRightBar("Space Escape"); </script>
+
+                <a href = "https://skibamykyta.itch.io/space-escape"><h3> >Download Game Build (.EXE) </h3></a>
+
+			</div>
+		</div>
+		<!-- #content -->
+	</div>
+	<!-- .container -->
+	<footer id="colophon" class="site-footer">
+	<div class="container">
+		<div class="site-info">
+			<h1 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Mykyta Skiba</h1>
+		</div>
+	</div>
+	</footer>
+	<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
+</div>
+<!-- #page -->
+<script src='js/jquery.js'></script>
+<script src='js/plugins.js'></script>
+<script src='js/scripts.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+<script src='js/validate.js'></script>
+</body>
+</html>
