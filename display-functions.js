@@ -14,10 +14,16 @@ function LoadCategory() {
     let params = (new URL(document.location)).searchParams;
     let category = params.get("category");
 
+
     if (category == null) {
+        category = "Showcase";    
+    }
+
+    if (category == "All") {
         LoadAll();
         return;
     }
+
 
     console.log(category);
 
@@ -87,7 +93,7 @@ function LoadEntryCategories(categories) {
         document.getElementById("category-title").innerHTML += `
         
         <h3 class="page-title">
-        All Projects
+        Showcase
         </h3>
         `
     

@@ -3,7 +3,7 @@ const project_data = {
     "projects":[
     {
         "name":"Comb Financial",
-        "categories":["Video Game"],
+        "categories":["Video Game", "Showcase"],
         "description":"A Metaverse GameFi project in active development",
         "image":"assets/images/comb_logo.png",
         "date":"June 2023 - Current",
@@ -103,7 +103,7 @@ const project_data = {
     },
     {
         "name":"Space Escape",
-        "categories":["Video Game"],
+        "categories":["Video Game", "Showcase"],
         "description":"A short space shooter game made in two weeks for a game jam",
         "image":"assets/images/space_escape_logo.png",
         "date":"December 2023",
@@ -114,7 +114,7 @@ const project_data = {
     },
     {
         "name":"Mesh Edit Online",
-        "categories":["Tool"],
+        "categories":["Tool", "Showcase"],
         "description":"A mesh sculpting application that works online based on client server architecture",
         "image":"assets/images/mesh_edit_logo.png",
         "date":"November 2023 - December 2023",
