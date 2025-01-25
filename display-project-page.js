@@ -29,7 +29,9 @@
 					
     
         <h1>${entry.name}</h1>    
-		<p>${entry.date}</p>
+		
+        <p>Role: ${entry.role}</p>
+        <p>${entry.date}</p>
         
         ${LoadEntryCategories(entry.categories)}
 		</header>
@@ -40,6 +42,7 @@
         
 		<p>Tools:${GetToolsList(entry)}
         </p>
+        
         `
     }
 
